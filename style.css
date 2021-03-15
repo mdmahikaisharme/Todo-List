@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* */
+    background: none;
+    border: none;
+    outline: none;
+    /* */
+    transition: all ease .2s;
+}
+
+
+
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  All     """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+body {
+    background-color: rgb(24, 24, 24);
+}
+button {
+    cursor: pointer;
+}
+
+
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Main    """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+main {
+    width: 30em;
+    margin: 0 auto;
+}
+/* h2 */
+h2 {
+    margin-top: .5em;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+h2 span {
+    text-transform: uppercase;
+    color: rgb(0, 255, 0);
+}
+/* input */
+#get_input {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input_name,
+#input_add {
+    margin: 0 .15em;
+    border-radius: .5em;
+}
+#input_name {
+    width: 17.5em;
+    height: 2em;
+    padding: 0 .75em;
+    font-size: 1rem;
+    background-color: #fff;
+}
+#input_add {
+    width: 1.5em;
+    height: 1.4em;
+    font-size: 1.5rem;
+    background-color:rgb(0, 255, 0);
+    color: #fff;
+}
+#input_add:hover {
+    background-color: rgb(0, 158, 0);
+}
+
+
+/* */
+#tasks {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    width: 22.5em;
+    margin: .25em 0;
+    padding: .5em .4em;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .2em solid #fff;
+}
+.todo:hover {
+    transform: scale(1.1);
+}
+.name:disabled {
+    width: 16em;
+    font-size: 1rem;
+    color: #fff;
+}
+.name {
+    width: 16em;
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+}
+.action {
+    width: 5.75em;
+    display: flex;
+    justify-content: space-between;
+}
+.edit,
+.remove {
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.edit {
+    color: rgb(0, 255, 0);
+}
+.edit:hover {
+    color: rgb(0, 158, 0);
+}
+.remove {
+    color: rgb(255, 0, 0);
+}
+.remove:hover {
+    color: rgb(158, 0, 0);
+}
